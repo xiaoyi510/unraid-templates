@@ -1,27 +1,47 @@
+
 <?xml version="1.0"?>
 <Container version="2">
-    <Name>xarr-rss</Name>
+    <Name>XARR-RSS</Name>
     <Repository>xiaoyi510/xarr-rss</Repository>
     <Registry>https://hub.docker.com/r/xiaoyi510/xarr-rss</Registry>
     <Network>bridge</Network>
     <MyIP/>
-    <Shell>sh</Shell>
+    <Shell>bash</Shell>
     <Privileged>false</Privileged>
-    <Support/>
-    <Project/>
-    <Overview>XArr系列作品 
-Rss 处理器</Overview>
+    <Support>https://blog.52nyg.com/2022/04/1513</Support>
+    <Project>https://blog.52nyg.com</Project>
+    <Overview>XARR-RSS&#xFF0C;&#x4E3B;&#x8981;&#x89E3;&#x51B3;&#xFF0C;sonarr&#x4E0E;&#x5404;&#x5927;&#x7AD9;&#x70B9;&#x4E4B;&#x95F4;&#x65E0;&#x6CD5;&#x8BC6;&#x522B;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x8F6F;&#x4EF6;&#x8FD8;&#x662F;&#x521D;&#x671F;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x5B58;&#x5728;BUG&#xFF0C;&#x5982;&#x5728;&#x4F7F;&#x7528;&#x671F;&#x95F4;&#x53D1;&#x73B0;&#x95EE;&#x9898;&#xFF0C;&#x53EF;&#x4EE5;&#x8054;&#x7CFB;&#xFF01;&#xD;
+        &#xD;
+        ---&#xD;
+        **&#x76EE;&#x524D;&#x652F;&#x6301;&#x7684;&#x7AD9;&#x70B9;:&#xD;
+        1.  &#x871C;&#x67D1;&#x3001;&#x840C;&#x756A;&#x7EC4;&#x3001;&#x7231;&#x604B;&#x52A8;&#x6F2B;&#x3001;&#xFF08;&#x5DF2;&#x6D4B;&#x8BD5;&#xFF09;&#xD;
+        2. &#x52A8;&#x6F2B;&#x82B1;&#x56ED; &#x5F85;&#x6D4B;&#x8BD5;&#xFF0C;&#x521A;&#x6539;&#x4E86;&#x8FD8;&#x6CA1;&#x6D4B;&#xFF08;&#x672A;&#x6D4B;&#x8BD5;&#xFF09;&#xD;
+        ---&#xD;
+        **BUG&#x63D0;&#x4EA4;&#xFF1A;&#xD;
+        2. Xarr&#x9879;&#x76EE;&#x53CD;&#x9988;&#xFF08;https://docs.qq.com/form/page/DTVFxenNHYmdkY2FI&#xFF09;&#xD;
+        ---&#xD;
+        *&#x6A21;&#x677F;&#x4F5C;&#x8005;&#xFF1A;RSG&#x4EBA;&#x751F;&#x89C2; &#x8F6F;&#x4EF6;&#x4F5C;&#x8005;&#xFF1A;&#x5305;&#x5B50;</Overview>
     <Category/>
     <WebUI>http://[IP]:[PORT:8086]</WebUI>
-    <TemplateURL/>
-    <Icon>https://blog.52nyg.com/wp-content/uploads/2022/04/1650872541-image-1650872540646.png</Icon>
+    <TemplateURL>https://xarr.52nyg.com/unraid-template/XARR-RSS.xml</TemplateURL>
+    <Icon>https://xarr.52nyg.com/images/logo.png</Icon>
     <ExtraParams/>
     <PostArgs/>
     <CPUset/>
-    <DateInstalled>1650851391</DateInstalled>
+    <DateInstalled>1650878010</DateInstalled>
     <DonateText/>
     <DonateLink/>
-    <Description>XArr系列作品 \r\n剧集 Rss 处理器</Description>
+    <Description>XARR-RSS&#xFF0C;&#x4E3B;&#x8981;&#x89E3;&#x51B3;&#xFF0C;sonarr&#x4E0E;&#x5404;&#x5927;&#x7AD9;&#x70B9;&#x4E4B;&#x95F4;&#x65E0;&#x6CD5;&#x8BC6;&#x522B;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x8F6F;&#x4EF6;&#x8FD8;&#x662F;&#x521D;&#x671F;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x5B58;&#x5728;BUG&#xFF0C;&#x5982;&#x5728;&#x4F7F;&#x7528;&#x671F;&#x95F4;&#x53D1;&#x73B0;&#x95EE;&#x9898;&#xFF0C;&#x53EF;&#x4EE5;&#x8054;&#x7CFB;&#xFF01;&#xD;
+        &#xD;
+        ---&#xD;
+        **&#x76EE;&#x524D;&#x652F;&#x6301;&#x7684;&#x7AD9;&#x70B9;:&#xD;
+        1.  &#x871C;&#x67D1;&#x3001;&#x840C;&#x756A;&#x7EC4;&#x3001;&#x7231;&#x604B;&#x52A8;&#x6F2B;&#x3001;&#xFF08;&#x5DF2;&#x6D4B;&#x8BD5;&#xFF09;&#xD;
+        2. &#x52A8;&#x6F2B;&#x82B1;&#x56ED; &#x5F85;&#x6D4B;&#x8BD5;&#xFF0C;&#x521A;&#x6539;&#x4E86;&#x8FD8;&#x6CA1;&#x6D4B;&#xFF08;&#x672A;&#x6D4B;&#x8BD5;&#xFF09;&#xD;
+        ---&#xD;
+        **BUG&#x63D0;&#x4EA4;&#xFF1A;&#xD;
+        2. Xarr&#x9879;&#x76EE;&#x53CD;&#x9988;&#xFF08;https://docs.qq.com/form/page/DTVFxenNHYmdkY2FI&#xFF09;&#xD;
+        ---&#xD;
+        *&#x6A21;&#x677F;&#x4F5C;&#x8005;&#xFF1A;RSG&#x4EBA;&#x751F;&#x89C2; &#x8F6F;&#x4EF6;&#x4F5C;&#x8005;&#xFF1A;&#x5305;&#x5B50;</Description>
     <Networking>
         <Mode>bridge</Mode>
         <Publish>
@@ -40,7 +60,8 @@ Rss 处理器</Overview>
         </Volume>
     </Data>
     <Environment/>
-    <Labels/>
-    <Config Name="管理端口" Target="8086" Default="" Mode="tcp" Description="容器 Port: 8086" Type="Port" Display="always" Required="false" Mask="false">8086</Config>
-    <Config Name="配置目录" Target="/app/conf" Default="" Mode="rw" Description="容器 Path: /app/conf" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/xarr-rss</Config>
+    <Labels>
+    </Labels>
+    <Config Name="Web-UI" Target="8086" Default="" Mode="tcp" Description="web&#x8BBF;&#x95EE;&#x7684;&#x7AEF;&#x53E3;&#x53F7;" Type="Port" Display="always" Required="false" Mask="false">8086</Config>
+    <Config Name="Appdata" Target="/app/conf" Default="" Mode="rw" Description="Container Path: /app/conf" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/xarr-rss</Config>
 </Container>
